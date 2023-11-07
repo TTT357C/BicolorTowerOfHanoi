@@ -53,13 +53,3 @@ class WritePDDL:
 
 #=====================================================================================================
 
-if __name__ == "__main__":
-    # If run as a script, prompt for number of disks and rods, initialize colors,
-    # and call WritePDDL.write() to generate the PDDL file.
-    num_disk = int(input("number of disks: "))
-    num_rods = int(input("number of rods: "))
-
-    col1 = "r"
-    col2 = "w"
-    WritePDDL.write(num_disk,num_rods,col1,col2)
-
