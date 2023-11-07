@@ -60,6 +60,10 @@ You can find also the requirements.txt file in the main folder. (pip install -r 
 3. if you are on windows run the file launcher.bat, otherwise open a terminal in the folder where MainWindow.py is located and run MainWindow.py
 (This i needed because the GUI need to find the path to some component)
 
+### Note
+
+If you put the same color inside the GUI the search will not work, also you can add many colors but only the first 2 will be used.
+
 ## Authors
 
 * **Thomas Causetti** - [Thomas Causetti](https://github.com/TTT357C/) - *Programmer*
