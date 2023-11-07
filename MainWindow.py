@@ -483,7 +483,7 @@ class MainWindow:
         self.window.withdraw()
         self.blank()
         self.window.update()
-        wc.runPDDL(i2)
+        wc.runPDDL(i2,i3)
         self.initializer()
         self.window.deiconify()
 

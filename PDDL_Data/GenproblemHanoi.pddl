@@ -1,7 +1,7 @@
 (define (problem move_r3_to_goal) (:domain hanoiPLUS)
 (:objects
 	w1 w2 w3 r1 r2 r3 - disk
-	rod1 rod2 rod3 rod4 - rod
+	rod1 rod2 rod3 rod4 rod5 - rod
 	h - hand
 )
 (:init
@@ -9,7 +9,7 @@
 	(located w1 rod1) (located r2 rod1) (located w3 rod1) 
 	(located r1 rod2) (located w2 rod2) (located r3 rod2) 
 	(=(disks_number rod1)3) (=(disks_number rod2)3) 
-	(=(disks_number rod3)0) (=(disks_number rod4)0) 
+	(=(disks_number rod3)0) (=(disks_number rod4)0) (=(disks_number rod5)0) 
 
 	(on w1 r2)(on r2 w3)
 	(on r1 w2)(on w2 r3)
@@ -29,7 +29,7 @@
 
 
 	(=(disks_number rod1)3) (=(disks_number rod2)3) 
-	(=(disks_number rod3)0) (=(disks_number rod4)0) 
+	(=(disks_number rod3)0) (=(disks_number rod4)0) (=(disks_number rod5)0) 
 	(clear r1) 
 	(clear w1) 
 	(not(clear r2)) (not(clear r3)) 

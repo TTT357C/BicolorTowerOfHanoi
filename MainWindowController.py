@@ -61,11 +61,10 @@ def __starter(return_dict,c,n,selected_g,n_rods):
        n: Number of disks to solve for
     e.colors = colors
 """
-def __starter2(return_dict,n):
+def __starter2(return_dict,n,n_rods):
      
 
-    #TODO Magic Number
-    WritePDDL.write(n,4)
+    WritePDDL.write(n,n_rods)
     
     start_time = datetime.datetime.now()
     return_dict[0] = ShellCommand().run(["java","-jar","PDDL_Data/enhsp-20.jar","-o","PDDL_Data/domainHanoiPLUS.pddl","-f","PDDL_Data/GenproblemHanoi.pddl","-planner","opt-hrmax"])
@@ -140,14 +139,14 @@ def runPDDLMulti(number):
 
     Return the planner output and elapsed time.
 """
-def runPDDL(number):
+def runPDDL(number,n_rods):
 
     t2 = Process(target = waitw, args=())
     t2.start()
 
     manager = Manager()
     return_dict = manager.dict()
-    t1 = Process(target = __starter2, args=(return_dict,number))
+    t1 = Process(target = __starter2, args=(return_dict,number,n_rods))
     t1.start()
     t1.join()
     t2.terminate()
