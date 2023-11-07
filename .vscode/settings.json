@@ -1,0 +1,8 @@
+{
+    "python.analysis.extraPaths": [
+        "./search/model",
+        "./search/searchAlgorithms",
+        "./search/creation_classes",
+        "./search/searchAlgorithms"
+    ]
+}

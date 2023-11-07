@@ -1,0 +1,11 @@
+comando corretto per avviare planning
+
+risoluzione sub ottima
+ java -jar enhsp-20.jar -o d.pddl -f p.pddl -planner sat-hrmax
+
+
+risoluzione ottima
+ java -jar enhsp-20.jar -o newPDDL\domainHanoiPLUS.pddl -f newPDDL\problemHanoiPLUS.pddl -planner opt-hrmax
+
+ottenere soluzione ottima e file grafo
+ java -jar enhsp-20.jar -o Dtravel.pddl -f P1travel.pddl -planner opt-hrmax -sjr

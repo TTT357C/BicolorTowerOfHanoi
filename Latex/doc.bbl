@@ -1,0 +1,78 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Reference1}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f8edf6e66ebeea21bff0cdd091d49fef}{%
+           family={Stuart\bibnamedelimb J.\bibnamedelimi Russell},
+           familyi={S\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Peter\bibnamedelima Norvig},
+           giveni={P\bibinitperiod\bibinitdelim N\bibinitperiod},
+           prefix={e},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson}%
+      }
+      \strng{namehash}{f8edf6e66ebeea21bff0cdd091d49fef}
+      \strng{fullhash}{f8edf6e66ebeea21bff0cdd091d49fef}
+      \strng{bibnamehash}{f8edf6e66ebeea21bff0cdd091d49fef}
+      \strng{authorbibnamehash}{f8edf6e66ebeea21bff0cdd091d49fef}
+      \strng{authornamehash}{f8edf6e66ebeea21bff0cdd091d49fef}
+      \strng{authorfullhash}{f8edf6e66ebeea21bff0cdd091d49fef}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Artificial intelligence a modern approach}
+      \field{year}{2016}
+      \true{nocite}
+    \endentry
+    \entry{Reference2}{online}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{title}{Enhsp-20}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://gitlab.com/enricos83/ENHSP-Public/-/tree/enhsp-20
+      \endverb
+      \verb{url}
+      \verb https://gitlab.com/enricos83/ENHSP-Public/-/tree/enhsp-20
+      \endverb
+    \endentry
+    \entry{Reference3}{online}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labeltitlesource}{title}
+      \field{title}{Indexed priority queue}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.geeksforgeeks.org/indexed-priority-queue-with-implementation/
+      \endverb
+      \verb{url}
+      \verb https://www.geeksforgeeks.org/indexed-priority-queue-with-implementation/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

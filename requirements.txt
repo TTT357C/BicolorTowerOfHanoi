@@ -1,0 +1,4 @@
+Cython>=3.0.5
+numpy>=1.25.1
+setuptools>=65.5.0
+tk>=0.1.0
