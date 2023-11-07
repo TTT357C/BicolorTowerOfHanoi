@@ -25,7 +25,7 @@ class WaitingWindow:
         hs = self.window.winfo_screenheight()
         x = (ws/2) - (w/2)
         y = (hs/2) - (h/2)
-        print(w, h, x, y)
+        #print(w, h, x, y)
         self.window.geometry('%dx%d+%d+%d' % (w, h, x, y))
         
         self.window.resizable(False, False)

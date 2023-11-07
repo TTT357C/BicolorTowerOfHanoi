@@ -70,7 +70,7 @@ class MainWindow:
         hs = self.window.winfo_screenheight()
         x = (ws/2) - (w/2)
         y = (hs/2) - (h/2)
-        print(w, h, x, y)
+        #print(w, h, x, y)
         self.window.geometry('%dx%d+%d+%d' % (w, h, x, y))
 
         self.image_image_1 = PhotoImage(file="search\\build0\\assets\\frame0\\image_1.png")
