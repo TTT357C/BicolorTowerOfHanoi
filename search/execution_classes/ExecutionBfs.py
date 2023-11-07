@@ -31,12 +31,7 @@ def startExecution(c,n_disk,n_rods = 3):
     else:
         s += "Unsolvable"
 
-    #TODO rimuovere
-    #print(s)
 
-    """ print(n.g)
-    return n.g
-    """
     return extract_solution_node(n)
 
 

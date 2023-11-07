@@ -41,9 +41,7 @@ def startExecution(c,_n,n_rods = 3):
 
         s1 = s1.replace("1 --> 1\n", "") """
         
-    #print("secondi:")
-    #print(int(elapsed.total_seconds()))
-    #TODO rimuovere
+    
     print(s1)
     
 

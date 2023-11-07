@@ -41,8 +41,7 @@ class Rod:
         return len(self.__stack)
     
     def getEuristicRod(self):
-        
-        #TODO colore
+
         value = 0
         cont = 10
 
