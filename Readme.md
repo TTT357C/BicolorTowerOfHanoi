@@ -54,10 +54,10 @@ You can find also the requirements.txt file in the main folder. (pip install -r 
 
 ### Installation
 
-Download the zip folder.
-Unzip it.
+1. Download the zip folder.
+2. Unzip it.
 
-if you are on windows run the file launcher.bat, otherwise open a terminal in the folder where MainWindow.py is located and run MainWindow.py
+3. if you are on windows run the file launcher.bat, otherwise open a terminal in the folder where MainWindow.py is located and run MainWindow.py
 (This i needed because the GUI need to find the path to some component)
 
 ## Authors
