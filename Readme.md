@@ -6,7 +6,7 @@
     Python solver
     <br/>
     <br/>
-    <a href="https://github.com/TTT357C/BicolorTowerOfHanoi/blob/main/Latex/doc.pdf"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/TTT357C/BicolorTowerOfHanoi/blob/main/DocumentazioneProgetto.pdf"><strong>Explore the docs »</strong></a>
     <br/>
     <br/>
   </p>
