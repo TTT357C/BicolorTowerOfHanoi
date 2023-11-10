@@ -159,7 +159,7 @@ class Rod:
                 break
 
         if(not done and my_len > other_len):
-            h = h +  2*(my_len-other_len)
+            h = h + (my_len-other_len)
   
         return h
 #====================================================================================================
@@ -168,7 +168,7 @@ class Rod:
     def sameDisks(self):
         s = 0
         ub = len(self.__stack) - 1 
-        for i in range(0, ub ):
+        for i in range(0, ub):
             if(self.__stack[i][1] == self.__stack[i+1][1]):
                 s += 1
         return s
